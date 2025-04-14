@@ -1,0 +1,75 @@
+finance-tracker/
+│
+├── backend/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── default.json
+│   │
+│   ├── controllers/
+│   │   ├── transactionController.js
+│   │   └── userController.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   │
+│   ├── models/
+│   │   ├── Transaction.js
+│   │   └── User.js
+│   │
+│   ├── routes/
+│   │   ├── transactionRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   └── Register.js
+│   │   │   │
+│   │   │   ├── dashboard/
+│   │   │   │   ├── Dashboard.js
+│   │   │   │   ├── BalanceCard.js
+│   │   │   │   └── ChartComponent.js
+│   │   │   │
+│   │   │   ├── transactions/
+│   │   │   │   ├── TransactionList.js
+│   │   │   │   ├── TransactionForm.js
+│   │   │   │   └── TransactionItem.js
+│   │   │   │
+│   │   │   ├── layout/
+│   │   │   │   ├── Navbar.js
+│   │   │   │   ├── Sidebar.js
+│   │   │   │   └── Footer.js
+│   │   │   │
+│   │   │   └── common/
+│   │   │       ├── Loading.js
+│   │   │       └── Alert.js
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── api.js
+│   │   │   └── helpers.js
+│   │   │
+│   │   ├── styles/
+│   │   │   └── global.css
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   ├── package.json
+│   └── .env
+│
+├── .gitignore
+└── README.md
